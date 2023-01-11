@@ -84,3 +84,19 @@ body {
 .btn__img:is(:hover, :active) {
 	transform: rotate(180deg);
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$____MEDIA Q____&&&&$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+@media (max-width: 800px) {
+	.advice-generator {
+		width: 80vw;
+	}
+}
+
+@media (max-width: 440px) {
+	.advice {
+		font-size: 1.5rem;
+	}
+}

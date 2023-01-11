@@ -13,7 +13,7 @@ const getAdvice = async () => {
 const renderAdvice = (adviceObject) => {
 	const { id, advice } = adviceObject;
 	adviceNumber.textContent = `ADVICE #${id}`;
-	adviceSlot.textContent = `"${advice}"`;
+	adviceSlot.textContent = `${advice}`;
 };
 
 const getNewAdvice = async () => {
